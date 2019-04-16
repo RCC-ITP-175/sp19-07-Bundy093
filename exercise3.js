@@ -21,7 +21,7 @@ console.log("exercise3.js start");
 
 var customersObj = {
     23567: {
-        'name': {
+        'Substitute': {
             'first': 'Ichigo',
             'last': 'Kurosaki'
         }, 
@@ -29,7 +29,7 @@ var customersObj = {
         'balance': 153677345
     },
     1234: {
-        'name': {
+        'Captain': {
             'first': 'Gin',
             'last': 'Ichimaru'
         }, 
@@ -37,7 +37,7 @@ var customersObj = {
         'balance': 1235412356
     },
     1531: {
-        'name': {
+        'Captain': {
             'first': 'Shunsui',
             'last': 'Kyoraku'
         }, 
@@ -45,7 +45,7 @@ var customersObj = {
         'balance': 65432467
     },
     543: {
-        'name': {
+        'Shoekeeper': {
             'first': 'Kisuke',
             'last': 'Urahara'
         }, 
@@ -53,16 +53,65 @@ var customersObj = {
         'balance': 63463723562
     },
     667: {
-        'name': {
-            'first': 'Ulquiorra' 
+        'Espada 4': {
+            'first': 'Ulquiorra', 
+            'last': 'Cifer'
         }, 
         'customerID': 667,
         'balance': 4562647745
     }
 };
 
-
-
+var transaction = {
+  23567: {
+    'Substitute': {
+      'first': 'Ichigo',
+      'last': 'Kurosaki'
+    },
+    'customerID':100000,
+    'balance':1537773.45
+  }
+};
+    var transaction = {
+  1234: {
+    'Captain': {
+      'first': 'Gin',
+      'last': 'Ichimaru'
+    },
+    'customerID':100,
+    'balance':12354124.56
+  }
+};
+var transaction = {
+  1531: {
+    'Captain': {
+      'first': 'Shunsui',
+      'last': 'Kyoraku'
+    },
+    'customerID':-75432467,
+    'balance':-100000.00
+  }
+};
+var transaction = {
+  543: {
+    'Shoekeeper': {
+      'first': 'Kisuke',
+      'last': 'Urahara'
+    },
+    'customerID':-63463723562,
+    'balance':0
+  }
+};
+var transaction = {
+  667: {
+    'Espada': {
+      'first': 'Ulquiorra',
+      'last': 'Cifer'
+    },
+    'customerID':1,
+    'balance':45626477.46
+  }
+};
 
 
 
