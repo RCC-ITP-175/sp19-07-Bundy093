@@ -49,7 +49,12 @@ var customersObj = {
     }
 };
 
-
+var getCustomer = {
+  23567:"Ichigo Kurosaki",
+  1234:"Gin Ichimaru",
+  1531:"Shinsui Kyoraku",
+  543:"Kisuke Urahara",
+  667:"Ulquiorra"
 
 
 
