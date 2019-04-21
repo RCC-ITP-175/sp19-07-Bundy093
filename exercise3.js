@@ -113,7 +113,13 @@ var transaction = {
   }
 };
 
-
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// Your solution isn't using a function. Refer to https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments
+// The transaction objects you create are properly formatted JavaScript objects,
+// but I want you to create a function and edit the original customersObj object,
+// not create new objects.
 
 
 
